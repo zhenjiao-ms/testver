@@ -6,7 +6,7 @@
       "build_output_subfolder": "zhen-testver",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [netcore-1.0, netcore-1.1],
+      "moniker_ranges": ["netcore-1.0", "netcore-1.1"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
