@@ -9,6 +9,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "index.md",
           "_themes/**",
           "_themes.pdf/**",
           "README.md",
@@ -16,7 +17,23 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
-      }
+      },
+      {
+        "files": [
+          "**/index.md",
+          "**/*.yml"
+        ],
+        "src": "netcore1.0",
+        "group": "netcore1.0"
+      },
+      {
+        "files": [
+          "**/index.md",
+          "**/*.yml"
+        ],
+        "src": "netcore1.1",
+        "group": "netcore1.1"
+      }      
     ],
     "resource": [
       {
@@ -32,7 +49,16 @@
         ]
       }
     ],
-    "overwrite": [],
+    "groups": {
+       "netcore1.0": {
+        "dest": "netcore1.0",
+        "moniker_range": "netcore-1.0"
+      },
+      "netcore1.1": {
+        "dest": "netcore1.1",
+        "moniker_range": "netcore-1.1"
+      }
+    },    "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/zhen-testver/breadcrumb/toc.json",
